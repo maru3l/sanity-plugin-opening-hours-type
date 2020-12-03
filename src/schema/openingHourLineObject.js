@@ -34,7 +34,7 @@ const days = [
 ]
 
 export default {
-  name: 'oppeningHourLineObject',
+  name: 'openingHourLineObject',
   type: 'object',
   fields: [
     {

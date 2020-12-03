@@ -1,11 +1,11 @@
 export default {
-  name: 'oppeningHours',
+  name: 'openingHours',
   type: 'object',
   fields: [
     {
       name: 'openingHours',
       type: 'array',
-      of: [{ type: 'oppeningHourLineObject' }],
+      of: [{ type: 'openingHourLineObject' }],
     },
   ],
 };
