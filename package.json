@@ -1,0 +1,33 @@
+{
+  "name": "sanity-plugin-opening-hours-type",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel -d lib/ src/",
+    "develop": "babel -d lib/ src/ --watch",
+    "lint": "eslint ./src",
+    "test": "npm run lint",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maru3l/sanity-plugin-opening-hours-type.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maru3l/sanity-plugin-opening-hours-type/issues"
+  },
+  "homepage": "https://github.com/maru3l/sanity-plugin-opening-hours-type#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-sanity": "^1.150.8",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "^2.1.2"
+  }
+}

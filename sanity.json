@@ -1,0 +1,25 @@
+{
+    "paths": {
+      "source": "./src",
+      "compiled": "./lib"
+    },
+    "parts": [
+      {
+        "implements": "part:@sanity/base/schema-type",
+        "path": "schema/openingHour.js"
+      },
+      {
+        "implements": "part:@sanity/base/schema-type",
+        "path": "schema/hourObject.js"
+      },
+      {
+        "implements": "part:@sanity/base/schema-type",
+        "path": "schema/openingHourLineObject.js"
+      },
+      {
+        "implements": "part:@sanity/base/schema-type",
+        "path": "schema/timeObject.js"
+      }
+    ]
+  }
+  

@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "node": false
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "sanity",
+    "prettier",
+    "prettier/babel",
+    "prettier/react"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  }
+}
